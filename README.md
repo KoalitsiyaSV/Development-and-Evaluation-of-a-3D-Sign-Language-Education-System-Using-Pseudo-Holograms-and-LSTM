@@ -1,1 +1,1 @@
-# Development-and-Evaluation-of-a-3D-Sign-Language-Education-System-Using-Pseudo-Holograms-and-LSTM
+# 유사 홀로그램과 LSTM을 이용한 3D 수화 교육 시스템 개발 및 평가
