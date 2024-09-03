@@ -16,4 +16,7 @@
 - Python
 - Flask
 
+## 3. 흐름도
+![tmp6FC7](https://github.com/user-attachments/assets/77c7e7b6-8962-4db0-ba71-a41097e5a109)
+
 ## 4.
