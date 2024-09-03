@@ -9,10 +9,10 @@
 </br>
 
 ## 2. 사용 기술
-#### 'Client'
+#### `Client`
 - Unity/C#
 
-#### 'Server'
+#### `Server`
 - Python
 - Flask
 
