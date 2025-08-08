@@ -29,7 +29,7 @@ public class DataSender : MonoBehaviour
         }
         else
         {
-            Debug.LogError("파일이 존재하지 않습니다: " + filePath);
+            //Debug.LogError("파일이 존재하지 않습니다: " + filePath);
         }
 
         //// Resources 폴더에서 JSON 파일 읽기
@@ -41,11 +41,11 @@ public class DataSender : MonoBehaviour
         //    return;
         //}
 
-        Debug.Log("test2");
+        //Debug.Log("test2");
 
         //string jsonData = jsonFile.text;
 
-        Debug.Log(jsonContent);
+        //Debug.Log(jsonContent);
 
         StartCoroutine(SendData(url, jsonContent));
     }
@@ -54,7 +54,7 @@ public class DataSender : MonoBehaviour
     {
         if (data == "")
         {
-            Debug.LogError("JSON Data is NULL: ");
+            ///Debug.LogError("JSON Data is NULL: ");
             return;
         }
 
@@ -79,12 +79,12 @@ public class DataSender : MonoBehaviour
 
             if (request.result != UnityWebRequest.Result.Success)
             {
-                Debug.LogError("Request error: " + request.error);
+                //Debug.LogError("Request error: " + request.error);
             }
             else
             {
-                Debug.Log("Data sent successfully");
-                Debug.Log("test4");
+                //Debug.Log("Data sent successfully");
+                //Debug.Log("test4");
             }
         }
 

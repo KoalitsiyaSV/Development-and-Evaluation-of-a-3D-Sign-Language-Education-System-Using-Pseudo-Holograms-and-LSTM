@@ -287,7 +287,7 @@ public class AngleDataSender : MonoBehaviour
 
     public void ReverseTrigger()
     {
-        Debug.Log("Here1");
+        //Debug.Log("Here1");
 
         if (!isDetect)
         {
@@ -297,7 +297,7 @@ public class AngleDataSender : MonoBehaviour
                 writer.Write("[\n");
             }
 
-            Debug.Log("Here3");
+            //Debug.Log("Here3");
         }
 
         isDetect = true;
@@ -385,7 +385,7 @@ public class AngleDataSender : MonoBehaviour
         // 수정된 내용으로 JSON 파일 다시 쓰기
         File.WriteAllText(filePath, jsonContent);
 
-        Debug.Log(jsonContent);
+        //Debug.Log(jsonContent);
 
         dataSender.SendJsonDataFromResource(setFileName, url, "test");
         //dataSender.DataSend(url);

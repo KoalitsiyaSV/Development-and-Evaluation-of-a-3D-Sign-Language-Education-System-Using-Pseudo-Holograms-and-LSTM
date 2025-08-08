@@ -64,6 +64,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
 
+
         bCanPlay = true;
 
         stringArray[0] = "æ»≥Á«œººø‰";
